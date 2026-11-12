@@ -1,0 +1,147 @@
+/* Theme tokens. Every colour in the UI comes from one of these variables. */
+
+:root,
+:root[data-theme='dusk'] {
+  --bg: #1a1b26;
+  --surface: #1f2131;
+  --surface-2: #2a2d42;
+  --border: #2c2f45;
+  --text: #c8d0f5;
+  --dim: #4d5377;
+  --muted: #6f769c;
+  --accent: #7aa2f7;
+  --caret: #e0af68;
+  --error: #f7768e;
+  --cursorline: #222436;
+  --gutter: #3b3f5c;
+  --gutter-active: #e0af68;
+  --guide: #2f3350;
+
+  --syn-keyword: #bb9af7;
+  --syn-string: #9ece6a;
+  --syn-number: #ff9e64;
+  --syn-comment: #565f89;
+  --syn-function: #7aa2f7;
+  --syn-type: #2ac3de;
+  --syn-builtin: #e0af68;
+  --syn-operator: #89ddff;
+  --syn-punct: #a9b1d6;
+  --syn-variable: #c0caf5;
+  --syn-meta: #f7768e;
+}
+
+:root[data-theme='gruvbox'] {
+  --bg: #282828;
+  --surface: #2f2d2b;
+  --surface-2: #3c3836;
+  --border: #3c3836;
+  --text: #ebdbb2;
+  --dim: #665c54;
+  --muted: #928374;
+  --accent: #fabd2f;
+  --caret: #fe8019;
+  --error: #fb4934;
+  --cursorline: #2e2c2a;
+  --gutter: #504945;
+  --gutter-active: #fabd2f;
+  --guide: #3a3735;
+
+  --syn-keyword: #fb4934;
+  --syn-string: #b8bb26;
+  --syn-number: #d3869b;
+  --syn-comment: #7c6f64;
+  --syn-function: #8ec07c;
+  --syn-type: #fabd2f;
+  --syn-builtin: #fe8019;
+  --syn-operator: #83a598;
+  --syn-punct: #bdae93;
+  --syn-variable: #ebdbb2;
+  --syn-meta: #8ec07c;
+}
+
+:root[data-theme='rose'] {
+  --bg: #191724;
+  --surface: #1f1d2e;
+  --surface-2: #2a273f;
+  --border: #26233a;
+  --text: #e0def4;
+  --dim: #524f67;
+  --muted: #6e6a86;
+  --accent: #ebbcba;
+  --caret: #f6c177;
+  --error: #eb6f92;
+  --cursorline: #1f1d2e;
+  --gutter: #403d52;
+  --gutter-active: #f6c177;
+  --guide: #2a2738;
+
+  --syn-keyword: #31748f;
+  --syn-string: #f6c177;
+  --syn-number: #ebbcba;
+  --syn-comment: #6e6a86;
+  --syn-function: #ebbcba;
+  --syn-type: #9ccfd8;
+  --syn-builtin: #c4a7e7;
+  --syn-operator: #908caa;
+  --syn-punct: #908caa;
+  --syn-variable: #e0def4;
+  --syn-meta: #eb6f92;
+}
+
+:root[data-theme='nord'] {
+  --bg: #2e3440;
+  --surface: #353c4a;
+  --surface-2: #3b4252;
+  --border: #3f4758;
+  --text: #e5e9f0;
+  --dim: #5c677d;
+  --muted: #7f8ba1;
+  --accent: #88c0d0;
+  --caret: #ebcb8b;
+  --error: #d57780;
+  --cursorline: #333a47;
+  --gutter: #4c566a;
+  --gutter-active: #ebcb8b;
+  --guide: #3b4252;
+
+  --syn-keyword: #81a1c1;
+  --syn-string: #a3be8c;
+  --syn-number: #b48ead;
+  --syn-comment: #616e88;
+  --syn-function: #88c0d0;
+  --syn-type: #8fbcbb;
+  --syn-builtin: #ebcb8b;
+  --syn-operator: #81a1c1;
+  --syn-punct: #d8dee9;
+  --syn-variable: #e5e9f0;
+  --syn-meta: #d08770;
+}
+
+:root[data-theme='paper'] {
+  --bg: #f4f1ea;
+  --surface: #ebe7dd;
+  --surface-2: #e0dbcf;
+  --border: #ddd7c9;
+  --text: #36352f;
+  --dim: #b0aa9b;
+  --muted: #857f70;
+  --accent: #a8561a;
+  --caret: #d4762c;
+  --error: #c4423c;
+  --cursorline: #ede9e0;
+  --gutter: #c6c0b1;
+  --gutter-active: #a8561a;
+  --guide: #e2ddd1;
+
+  --syn-keyword: #8f3f71;
+  --syn-string: #6a7a1c;
+  --syn-number: #b5531d;
+  --syn-comment: #a39d8d;
+  --syn-function: #2f6f8a;
+  --syn-type: #2a7c6f;
+  --syn-builtin: #a8561a;
+  --syn-operator: #5b6b8a;
+  --syn-punct: #6b675c;
+  --syn-variable: #36352f;
+  --syn-meta: #c4423c;
+}

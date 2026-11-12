@@ -1,0 +1,277 @@
+{
+  "presets": [
+    {
+      "id": "astro-academic",
+      "label": "astronomy paper",
+      "prompt": "astronomy paper written in an advanced academic style",
+      "format": "prose",
+      "tags": [
+        "astronomy",
+        "academic",
+        "science",
+        "space",
+        "paper",
+        "physics",
+        "stars",
+        "research"
+      ]
+    },
+    {
+      "id": "scifi-simple",
+      "label": "simple sci-fi",
+      "prompt": "sci-fi prose with simple words",
+      "format": "prose",
+      "tags": [
+        "scifi",
+        "sci-fi",
+        "fiction",
+        "space",
+        "story",
+        "simple",
+        "robot",
+        "future"
+      ]
+    },
+    {
+      "id": "quotes",
+      "label": "inspirational quotes",
+      "prompt": "inspirational quotes",
+      "format": "prose",
+      "tags": [
+        "quotes",
+        "inspirational",
+        "motivation",
+        "motivational",
+        "wisdom",
+        "life"
+      ]
+    },
+    {
+      "id": "history",
+      "label": "history",
+      "prompt": "a short passage about world history",
+      "format": "prose",
+      "tags": [
+        "history",
+        "historical",
+        "ancient",
+        "empire",
+        "war",
+        "civilization"
+      ]
+    },
+    {
+      "id": "common-english",
+      "label": "common words",
+      "prompt": "the most common English words",
+      "format": "words",
+      "tags": [
+        "common",
+        "english",
+        "words",
+        "basic",
+        "easy",
+        "simple",
+        "frequent",
+        "top",
+        "1k",
+        "5k",
+        "10k"
+      ],
+      "wordList": true
+    },
+    {
+      "id": "programming-terms",
+      "label": "programming terms",
+      "prompt": "programming and computer science vocabulary",
+      "format": "words",
+      "tags": [
+        "programming",
+        "code",
+        "coding",
+        "computer",
+        "software",
+        "developer",
+        "terms",
+        "vocabulary",
+        "tech"
+      ]
+    },
+    {
+      "id": "python-comprehensions",
+      "label": "python comprehensions",
+      "prompt": "Python code with list comprehensions",
+      "format": "code",
+      "tags": [
+        "python",
+        "py",
+        "comprehension",
+        "comprehensions",
+        "list",
+        "dict",
+        "code"
+      ]
+    },
+    {
+      "id": "js-async",
+      "label": "javascript async",
+      "prompt": "JavaScript async/await with fetch and error handling",
+      "format": "code",
+      "tags": [
+        "javascript",
+        "js",
+        "async",
+        "await",
+        "promise",
+        "fetch",
+        "node",
+        "code"
+      ]
+    },
+    {
+      "id": "latex-math",
+      "label": "latex math",
+      "prompt": "LaTeX with integrals, sums, products and special characters",
+      "format": "code",
+      "tags": [
+        "latex",
+        "tex",
+        "math",
+        "maths",
+        "integral",
+        "integrals",
+        "sums",
+        "equations",
+        "formula"
+      ]
+    },
+    {
+      "id": "sql-queries",
+      "label": "sql queries",
+      "prompt": "SQL queries with joins and aggregates",
+      "format": "code",
+      "tags": [
+        "sql",
+        "database",
+        "query",
+        "queries",
+        "join",
+        "postgres",
+        "select",
+        "code"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "astro-academic-1",
+      "preset": "astro-academic",
+      "title": "Stellar Nucleosynthesis",
+      "text": "Stellar nucleosynthesis accounts for the observed abundances of elements heavier than helium. In the cores of main-sequence stars, hydrogen is fused into helium via the proton-proton chain or, in more massive stars, the CNO cycle, whose rate depends steeply on core temperature."
+    },
+    {
+      "id": "astro-academic-2",
+      "preset": "astro-academic",
+      "title": "Constraints on Dark Matter Halos",
+      "text": "Rotation curves of spiral galaxies remain approximately flat well beyond the optical radius, a result that is difficult to reconcile with the distribution of luminous matter alone. The conventional interpretation invokes an extended halo of non-baryonic dark matter whose density profile declines roughly as the inverse square of radius. Numerical simulations, however, predict cuspy central profiles, whereas observations of low surface brightness galaxies frequently favour cored distributions. Proposed resolutions include feedback from supernovae, which redistributes baryons and flattens the inner potential, and alternative particle models such as self-interacting dark matter."
+    },
+    {
+      "id": "scifi-simple-3",
+      "preset": "scifi-simple",
+      "title": "The Quiet Ship",
+      "text": "The ship had been quiet for a long time. Mira walked down the hall and listened to the hum of the engines. Out the window, a red planet turned slowly in the dark."
+    },
+    {
+      "id": "scifi-simple-4",
+      "preset": "scifi-simple",
+      "title": "Signal From the Ice",
+      "text": "The signal came from under the ice. At first the crew thought it was a fault in the radio, but it kept coming back, three short beeps and one long one, every ten minutes. Jonas put on his suit and took the small drill out to the edge of the camp. The wind was cold and the sky was a pale green. When he cut through the last layer, a soft blue light rose up from the hole. Something down there was awake, and it had been waiting for them."
+    },
+    {
+      "id": "quotes-5",
+      "preset": "quotes",
+      "title": "Small Steps",
+      "text": "Start where you are and use what you have. A small step taken today is worth more than a perfect plan that never leaves the page. Progress is quiet; it rarely announces itself."
+    },
+    {
+      "id": "quotes-6",
+      "preset": "quotes",
+      "title": "On Practice",
+      "text": "Skill is just patience that has been repeated. The hands learn what the mind once struggled to hold, and one day the hard thing becomes the easy thing. Be kind to your early attempts; they are the reason your later ones will be good. Do not wait to feel ready, because readiness is usually something you notice afterwards. Measure your progress against yesterday, not against someone else's highlight reel."
+    },
+    {
+      "id": "history-7",
+      "preset": "history",
+      "title": "The Silk Roads",
+      "text": "The Silk Roads were never a single road. They were a shifting web of caravan routes linking China, Central Asia, Persia and the Mediterranean, carrying silk, spices, paper, and ideas across thousands of miles."
+    },
+    {
+      "id": "history-8",
+      "preset": "history",
+      "title": "The Printing Press",
+      "text": "When Johannes Gutenberg began printing with movable metal type around 1450, books were still rare and expensive. Within fifty years, presses had spread to more than two hundred European cities, and millions of volumes were in circulation. Pamphlets, calendars, and news sheets followed. Literacy rose, scholars could compare identical copies of a text, and arguments that once travelled slowly by hand could now cross a continent in weeks."
+    },
+    {
+      "id": "programming-terms-10",
+      "preset": "programming-terms",
+      "title": "Programming Vocabulary",
+      "text": "function variable constant array object string integer boolean float pointer reference closure callback promise async await thread mutex semaphore deadlock recursion iteration algorithm complexity hashmap queue stack heap tree graph vertex edge traversal compiler interpreter runtime bytecode garbage collector allocation buffer overflow socket protocol request response header payload endpoint middleware database query index schema migration transaction rollback commit branch merge rebase repository deploy container cluster latency throughput cache invalidation serialize parse token lexer syntax semantics generic interface inheritance polymorphism module package dependency version semantic immutable mutable lambda iterator generator decorator annotation exception debugger breakpoint refactor benchmark profiler regression assertion fixture mock coverage pipeline"
+    },
+    {
+      "id": "python-comprehensions-11",
+      "preset": "python-comprehensions",
+      "title": "Word Frequencies",
+      "language": "python",
+      "text": "def word_frequencies(text, min_len=3):\n    words = [w.strip(\".,!?\").lower() for w in text.split()]\n    words = [w for w in words if len(w) >= min_len]\n    counts = {w: words.count(w) for w in set(words)}\n    top = sorted(counts.items(), key=lambda kv: -kv[1])\n    return [(w, n) for w, n in top if n > 1]"
+    },
+    {
+      "id": "python-comprehensions-12",
+      "preset": "python-comprehensions",
+      "title": "Grid Utilities",
+      "language": "python",
+      "text": "from itertools import product\n\ndef make_grid(rows, cols, fill=0):\n    return [[fill for _ in range(cols)] for _ in range(rows)]\n\ndef neighbours(grid, r, c):\n    deltas = [(dr, dc) for dr, dc in product((-1, 0, 1), repeat=2) if dr or dc]\n    return [\n        grid[r + dr][c + dc]\n        for dr, dc in deltas\n        if 0 <= r + dr < len(grid) and 0 <= c + dc < len(grid[0])\n    ]\n\ndef transpose(grid):\n    return [list(col) for col in zip(*grid)]\n\ndef flatten(grid):\n    return [cell for row in grid for cell in row]"
+    },
+    {
+      "id": "js-async-13",
+      "preset": "js-async",
+      "title": "Fetch With Retry",
+      "language": "javascript",
+      "text": "async function fetchJson(url, retries = 3) {\n  for (let attempt = 1; attempt <= retries; attempt++) {\n    try {\n      const res = await fetch(url);\n      if (!res.ok) throw new Error(`HTTP ${res.status}`);\n      return await res.json();\n    } catch (err) {\n      if (attempt === retries) throw err;\n      await new Promise((r) => setTimeout(r, 200 * 2 ** attempt));\n    }\n  }\n}"
+    },
+    {
+      "id": "js-async-14",
+      "preset": "js-async",
+      "title": "Concurrent Loader",
+      "language": "javascript",
+      "text": "const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));\n\nexport async function loadAll(urls, { limit = 4, timeout = 5000 } = {}) {\n  const results = new Array(urls.length);\n  let next = 0;\n\n  async function worker() {\n    while (next < urls.length) {\n      const i = next++;\n      const ctrl = new AbortController();\n      const timer = setTimeout(() => ctrl.abort(), timeout);\n      try {\n        const res = await fetch(urls[i], { signal: ctrl.signal });\n        results[i] = { ok: res.ok, data: await res.text() };\n      } catch (error) {\n        results[i] = { ok: false, error: String(error) };\n      } finally {\n        clearTimeout(timer);\n      }\n      await sleep(50);\n    }\n  }\n\n  await Promise.all(Array.from({ length: limit }, worker));\n  return results;\n}"
+    },
+    {
+      "id": "latex-math-15",
+      "preset": "latex-math",
+      "title": "Gaussian Integral",
+      "language": "latex",
+      "text": "\\begin{equation}\n  \\int_{-\\infty}^{\\infty} e^{-x^2} \\, dx = \\sqrt{\\pi}\n\\end{equation}\n\\begin{align}\n  \\sum_{n=1}^{\\infty} \\frac{1}{n^2} &= \\frac{\\pi^2}{6} \\\\\n  \\prod_{k=1}^{n} \\left(1 + \\frac{1}{k}\\right) &= n + 1\n\\end{align}"
+    },
+    {
+      "id": "latex-math-16",
+      "preset": "latex-math",
+      "title": "Fourier Series",
+      "language": "latex",
+      "text": "\\section{Fourier series}\nLet $f$ be $2\\pi$-periodic and integrable on $[-\\pi, \\pi]$. Then\n\\begin{equation}\n  f(x) \\sim \\frac{a_0}{2} + \\sum_{n=1}^{\\infty}\n    \\left( a_n \\cos(nx) + b_n \\sin(nx) \\right),\n\\end{equation}\nwhere the coefficients are given by\n\\begin{align}\n  a_n &= \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} f(x) \\cos(nx) \\, dx, \\\\\n  b_n &= \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} f(x) \\sin(nx) \\, dx.\n\\end{align}\nBy Parseval's identity,\n\\[\n  \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} |f(x)|^2 \\, dx\n    = \\frac{a_0^2}{2} + \\sum_{n=1}^{\\infty} \\left( a_n^2 + b_n^2 \\right).\n\\]"
+    },
+    {
+      "id": "sql-queries-17",
+      "preset": "sql-queries",
+      "title": "Top Customers",
+      "language": "sql",
+      "text": "SELECT c.name, COUNT(o.id) AS orders, SUM(o.total) AS revenue\nFROM customers AS c\nJOIN orders AS o ON o.customer_id = c.id\nWHERE o.created_at >= DATE '2024-01-01'\nGROUP BY c.name\nHAVING SUM(o.total) > 1000\nORDER BY revenue DESC\nLIMIT 10;"
+    },
+    {
+      "id": "sql-queries-18",
+      "preset": "sql-queries",
+      "title": "Monthly Retention",
+      "language": "sql",
+      "text": "WITH first_orders AS (\n  SELECT customer_id, MIN(DATE_TRUNC('month', created_at)) AS cohort\n  FROM orders\n  GROUP BY customer_id\n),\nactivity AS (\n  SELECT DISTINCT o.customer_id, f.cohort,\n         DATE_TRUNC('month', o.created_at) AS active_month\n  FROM orders AS o\n  JOIN first_orders AS f USING (customer_id)\n)\nSELECT cohort,\n       active_month,\n       COUNT(*) AS customers,\n       ROUND(100.0 * COUNT(*) / FIRST_VALUE(COUNT(*)) OVER (\n         PARTITION BY cohort ORDER BY active_month\n       ), 1) AS pct_retained\nFROM activity\nGROUP BY cohort, active_month\nORDER BY cohort, active_month;"
+    }
+  ]
+}
