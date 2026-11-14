@@ -1,0 +1,24 @@
+# Optional: deploy everything (static site + /api) as one free Cloudflare Worker.
+#   npm run build && npx wrangler deploy
+#   npx wrangler secret put GEMINI_API_KEY
+name = "promptype"
+main = "server/worker.ts"
+compatibility_date = "2025-01-01"
+
+[assets]
+directory = "./dist"
+not_found_handling = "single-page-application"
+run_worker_first = ["/api/*"]
+
+[vars]
+GEMINI_MODEL = "gemini-3.6-flash"
+DAILY_GENERATION_LIMIT = "400"
+RATE_PER_MINUTE = "5"
+RATE_PER_DAY = "40"
+
+# Per-IP limit that holds across Worker isolates (the in-memory counters don't).
+# Free on Workers; the period must be 10 or 60 seconds. Uncomment to enable:
+# [[ratelimits]]
+# name = "GENERATE_LIMITER"
+# namespace_id = "1001"
+# simple = { limit = 5, period = 60 }
